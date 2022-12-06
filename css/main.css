@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    overflow-x: hidden;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+li,
+a,
+input,
+select {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+img{
+    vertical-align: middle;
+}
+
+
+/* Home page start */
+
+.nav-img{
+    width: 150px;
+    height: 60px;
+}
+.nav-btn{
+    background-color: #793bf3;
+    color: #ffffff;
+    border: #793bf3;
+    cursor: auto;
+    border: #000;
+    text-transform:uppercase;
+}
+.nav-btn:hover{
+    background-color: #f6f6f6;
+    color: #793bf3;
+}
+
+.nav-link{
+    color: #1f232b;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 900;
+}
+.nav-link:hover{
+    color: #55bce7;
+}
+
+
+
+.amt-text-img{
+    /* justify-content:flex-end;     */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.amt-text{
+    width: 50%;
+}
+.amt-head-img{
+    width: 50%;
+}
+.head-amt-text{
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+.subhead-amt-text{
+    font-size: 14px;
+    color: #1f232b;
+    font-weight: 600;
+}
+
+.amt-para{
+    text-align: justify;
+}
+.amt-img{
+    width: 100%;
+    height: auto ;
+    float: right;
+    display: b;
+}
+.banner-1-0{
+    font-size: 3rem;
+    font-weight: 100;
+    color: #1f232b;
+}
+.banner-1-1{
+    font-weight: 900;
+    font-size: 45px;
+    color: #1f232b;
+}
+.carousel-text-1{
+    padding-bottom: 16%;
+}
+.details-text{
+    font-size: 40px;
+    font-weight:900;
+}
+.title-font{
+    color: #55bce7;
+}
+.fa-solid{
+    color: #55bce7;
+    font-size: 30px;
+}
+
+ /* .bg-form-img{
+} */
+.bg-form-text{
+    position: absolute;
+    top: -50px;
+    text-align: center;
+} 
+
+/* Home page end */
+
+
+/* aplicant page start */
+
+
+
+.aplicantPage .banner{
+    position: relative;
+}
+
+.aplicantPage .banner .heading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.aplicantPage .banner h2 {
+    color: #FF010A;
+    font-weight: 900;
+    font-size: 64px;
+}
+
+
+.aplicantPage .banner .body .divider{
+    position: absolute;
+    bottom: 0;
+    background-color: #003e53;
+    padding: .6rem;
+    width: 100%;
+}
+
+.aplicantPage .banner .body .divider::after{
+    content: '\f0d7';
+    font-family: "Font Awesome 6 free";
+    font-weight: bold;
+    font-size: 50px;
+    color: #fff;
+    /* background-color: #003e43; */
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/* aplicant page end */
+
+/* Find a job starting*/
+.findajob .carousel-item{
+    background: -webkit-linear-gradient(#736fb3,#55bce7);
+    height: 300px;
+}
+
+.findajob .find_heading{
+    font-size: 40px;
+    font-weight: 600;
+    /* display: block;
+    width: 25%;
+    margin: auto; */
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: #fff;
+}
+
+.findajob .find_heading_sub{
+    display: flex;
+    font-size: 15px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.findajob .find_sub_p{
+    color: #fff;
+}
+
+.findajob .findajob_section_2{
+    background: -webkit-linear-gradient(#736fb3,#55bce7);
+    /* display: block;
+    width: 75%;
+    margin: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 50px;
+}
+
+.findajob .magnify{
+    background-color: #ffffff;
+    padding: 15px;
+    color: #000;
+    font-size: 15px;
+}
+
+
+.findajob .magnify:hover{
+    background-color: #55bce7;
+    padding: 15px;
+    color: #fff;
+    font-size: 15px;
+    transition: 0.9s;
+}
+
+.findajob .input_find_a_job_section2{
+    padding: 10px;
+    background-color: #000;
+    opacity: 0.5;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.findajob .section3{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px;
+}
+
+.findajob .section3_text_div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.findajob .img_sec3{
+    display: flex;
+    flex-direction: column;
+}
+
+.findajob .a_section3{
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.findajob .a_section3:hover{
+    color: #55bce7;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.findajob .div_sec33{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.findajob .img_section3{
+    display: flex;
+    flex-direction: column;
+}
+
+.findajob .sec3{
+    margin-top: 50px;
+}
+
+.findajob .fa-location-dot{
+    font-size: 15px;
+}
+
+.findajob .p_div_33{
+    font-size: 15px;
+}
+
+.findajob .div_sec3{
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+}
+
+.findajob .fa-calendar-days{
+    font-size: 15px;
+}
+
+.findajob .div_sec33{
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+}
+
+.findajob .p_div_33{
+    font-size: 14px;
+}
+
+
+
+
+/* Find a job end */
